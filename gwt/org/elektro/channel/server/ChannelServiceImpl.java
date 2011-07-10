@@ -9,7 +9,7 @@ public class ChannelServiceImpl extends RemoteServiceServlet implements	ChannelS
 private static final long serialVersionUID = 1L;
 
 @Override
-public String getToken()
+public String getToken(String clientid)
 	{
 	return null;
 	}
